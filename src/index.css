@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,9 +7,154 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #9924f4;
+  
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.contact_title {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.button-list {
+  display: flex;
+  list-style: none;
+
+}
+
+
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #8d40c4 0%, #212121 51%, #8d40c4 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
+.button:hover {
+  background-position: right center;
+}
+
+.feedback-list {
+  list-style: none;
+  padding-bottom: 50px;
+}
+
+.list-item {
+  color: #2504e0;
+
+  justify-content: space-between;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.contact_form {
+  border-radius: 4px;
+  /* box-shadow: 0.5rem 0.5rem 2rem #a7a4a4, -0.5rem -0.5rem 2rem #acabab; */
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  width: 320px; 
+
+}
+
+
+.label {
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+.input_name {
+  margin-left: 28px;
+}
+
+.input_number {
+  margin-left: 11px;
+}
+
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  color: rgb(1, 1, 1);
+}
+
+.filter_container {
+  display: flex;
+  justify-content: center;
+}
+
+.filter_tittle {
+  font-weight: bolder;
+}
+
+.filter_input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.list_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  color: rgb(1, 1, 1);
+}
+
+.list {
+  list-style: none;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  width: 400px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.contact_name {
+  margin-right: 15px;
+  color: #fff;
 }
